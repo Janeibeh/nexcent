@@ -40,8 +40,7 @@ const Header = () => {
             </nav>
 
         </header>
-
-     
+    
     </>
     )
 }
