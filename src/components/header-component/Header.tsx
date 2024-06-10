@@ -37,6 +37,7 @@ const Header = () => {
                     >
                     {menu ? <HiOutlineMenuAlt2 size="22"/>  :  < HiOutlineMenuAlt3  size="22"/> }
                 </div>
+                
             </nav>
 
         </header>
