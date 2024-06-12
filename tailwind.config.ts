@@ -27,6 +27,8 @@ const config: Config = {
       'lemon': '#4CAF4F',
       'black':'#263238',
       'textbl': '#18191F',
+      'grey':'#717171',
+      'gray':'#4D4D4D',
     },
   },
   plugins: [],

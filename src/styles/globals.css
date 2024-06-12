@@ -6,7 +6,8 @@
 @tailwind utilities;
 
 /* @layer components{
-    .nav__link{
-        @apply bg-black
+    .carousel{
+        @apply bg-lemon;
+      
     }
 } */
