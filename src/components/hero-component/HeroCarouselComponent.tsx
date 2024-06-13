@@ -19,7 +19,7 @@ const HeroCarouselComponent = () => {
         >
                 <SlideOne/>
                 <SlideTwo/>  
-                <SlideThree/>
+                {/* <SlideThree/> */}
         </Carousel>
     </>
     )
