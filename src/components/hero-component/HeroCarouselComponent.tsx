@@ -1,9 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import SlideOne from './SlideOne';
-import SlideTwo from './SlideTwo';
-import SlideThree from './SlideThree';
+import HeroCard from '@/cards/HeroCard';
+import { herodata } from '@/constants/herodata';
 
 const HeroCarouselComponent = () => {
     return (
@@ -15,11 +14,19 @@ const HeroCarouselComponent = () => {
             interval={3000}
             showStatus={false}
             showIndicators={true}
+            className="bg-neutral h-[50rem] lg:h-[37rem] px-14 lg:px-36    "
             
         >
-                <SlideOne/>
-                <SlideTwo/>  
-                {/* <SlideThree/> */}
+                {herodata.map( (item) => (
+                    <HeroCard 
+                        key={item._id}
+                        image={item.image} 
+                        titleone={item.titleone} 
+                        titletwo={item.titletwo}  
+                        paragraph={item.paragraph} 
+                        button={item.button}/>
+                      
+                ))}
         </Carousel>
     </>
     )
