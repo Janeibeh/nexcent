@@ -9,8 +9,8 @@ export const herodata = [
     },
 
     {
-        _id: 1 ,
-        image: "Fram 35.png",
+        _id: 2 ,
+        image: "Frame 35.png",
         titleone: "Mastering Client Relations",
         titletwo: "from 8 years",
         paragraph: "Secrets of building and maintaining strong client relationships from ten years of freelancing",
@@ -19,7 +19,7 @@ export const herodata = [
     },
 
     {
-        _id: 1 ,
+        _id: 3 ,
         image: "Illustration.png",
         titleone: "Digital Marketing Strategies",
         titletwo: "What Works in 2024",
@@ -27,4 +27,5 @@ export const herodata = [
         button: "Register",
 
     },
+   
 ]
