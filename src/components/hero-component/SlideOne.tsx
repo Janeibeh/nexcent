@@ -18,7 +18,7 @@ const SlideOne = () => {
                       <button className='bg-lemon h-11 w-28 rounded text-white lg:ml-0 ml-28  mt-5 '>Register</button>
                   </div>
                   <div className=''>
-                    <Image src={HeroImg} alt="hero" width={497}  height={507}/>
+                    <Image src={HeroImg} alt="hero" />
                   </div>
               </div>
           </div>
