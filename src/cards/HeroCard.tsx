@@ -7,13 +7,13 @@ interface HeroCardProps {
     titletwo: string;
     paragraph: string;
     button: string;
-    }
+  }
 
-
-    const HeroCard = ({ image, titleone, titletwo, paragraph, button }: HeroCardProps) => {
-    return (
+// const HeroCard = ({image,titleone,titletwo,paragraph,button}) => {
+    const HeroCard: React.FC<HeroCardProps> = ({ image, titleone, titletwo, paragraph, button }) => {
+return (
     <>
-        <div className='bg-neutral lg;h-[35rem] '>
+        <div className='bg-neutral h-[50rem] lg:h-[35rem]'>
             <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between py-16 px-0 '>
                 <div className='flex flex-col items-start lg:gap-4 gap-1 '>
                     <h1 className='font-semibold lg:text-7xl text-5xl  text-gray'  >{titleone} </h1>
@@ -22,7 +22,7 @@ interface HeroCardProps {
                     <button className='bg-lemon text-white  h-11 w-28 rounded lg:ml-0 ml-24 mt-5 '>{button}</button>
                 </div>
                 <div className=''>
-                    <Image src={image} width={391} height={407}  alt={titleone} className='w-96 h-96' />
+                    <Image src={image} width={391} height={407}  alt={titleone} className='w-96 h-96 ' />
                 </div>
             </div>
         </div>
@@ -31,6 +31,7 @@ interface HeroCardProps {
 }
 
 export default HeroCard
+
 
 
 

@@ -14,7 +14,7 @@ const HeroCarouselComponent = () => {
             interval={3000}
             showStatus={false}
             showIndicators={true}
-            className="bg-neutral h-[50rem] lg:h-[37rem] px-14 lg:px-36    "
+            className="bg-neutral  h-[50rem] lg:h-[35rem] px-14 lg:px-36    "
             
         >
                 {herodata.map( (item) => (
