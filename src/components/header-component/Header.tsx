@@ -16,7 +16,7 @@ const Header = () => {
         <header  className='bg-neutral relative z-1000 text-black' >
             <nav className=' container  h-20 mx-auto flex items-center justify-between lg:px-10 px-6'>
                 <div className=' flex gap-2.5'>
-                    <Image src={logo} alt="hero" />
+                    <Image src={logo} width= {35} height= {24} alt="hero" />
                     <span className='font-bold text-black '>Nexcent</span>
                 </div>
                 <ul className={`navfont absolute lg:static w-48 lg:w-auto flex flex-col  lg:flex lg:flex-row space-y-8 lg:space-y-0 lg:space-x-12 text-base top-20 text-textbl bg-black   h-screen lg:h-auto lg:bg-transparent pl-14 lg:pl-0 pt-8 lg:pt-0

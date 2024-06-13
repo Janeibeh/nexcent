@@ -33,3 +33,6 @@ const HeroCarouselComponent = () => {
 }
 
 export default HeroCarouselComponent
+
+
+// normally maping should be done in a div tag but to achieve the Carousel, it has to be irectly under the parent and not a div
