@@ -10,7 +10,7 @@ const HeroCarouselComponent = () => {
         <Carousel
             showThumbs={false}
             infiniteLoop
-            // autoPlay
+            autoPlay
             interval={3000}
             showStatus={false}
             showIndicators={true}
