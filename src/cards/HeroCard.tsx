@@ -22,10 +22,14 @@ return (
                     <button className='bg-lemon text-white  h-11 w-28 rounded lg:ml-0 ml-24 mt-5 '>{button}</button>
                 </div>
                 <div className=''>
-                    <Image src={image} width={391} height={407} priority={true}   alt={titleone} className='w-96 h-96 ' />
+                    <Image src={image} width={391} height={407} priority={true}   alt={titleone} className=' h-96 ' />
                 </div>
             </div>
         </div>
+
+        
+
+       
     </>
     )
 }
