@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image';
 import tImage from '@images/T-image.png';
 import { customerIcons } from '@/constants/customerIcons';
+import arrowicon from '@images/Right-arrow.png'
+
 
 
 const Customers = () => {
@@ -15,10 +17,15 @@ const Customers = () => {
                     <div className='space-y-3'>
                         <h6 className='text-xl text-lemon font-semibold pt-2'>Tim smith</h6>
                         <p className=' text-grey text-sm font-normal'>British Dragon Boat Racing Association</p>
-                        <div className='flex items-center space-x-2 '>
+                        <div className='flex items-center space-x-2  lg:space-x-10 mr-10 lg:mr-auto'>
                             {customerIcons.map((item) => (
-                        <Image src={item.image} key={item._id} alt='customerIcons' width= {28} height= {27}   />
+                                <Image src={item.image} key={item._id} alt='customerIcons' width= {28} height= {27}   />
                             ))} 
+                            <div className='flex items-center w-24 lg:w-auto text-sm gap-0 lg:gap-3 lg:font-semibold'>
+                            <p className='text-lemon '>Meet all customers</p>
+                            <Image src={arrowicon} alt='arrow'/>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

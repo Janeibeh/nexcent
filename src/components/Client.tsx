@@ -28,9 +28,6 @@ const Client = () => {
             <Community/>
             <Memberships/>
         </div> 
-
-        
-
     </>
     )
 }

@@ -28,11 +28,5 @@ export const customerIcons = [
         _id: 6 ,
         image: "/media/Logo (4).png",
     },
-
-
-    {
-        _id: 7 ,
-        image: "/media/Right-arrow.png",
-    },
     
 ]

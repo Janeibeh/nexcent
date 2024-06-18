@@ -6,7 +6,7 @@ import { membershipData } from '@/constants/membershipData';
 const Memberships = () => {
     return (
     <>
-       <div className='flex flex-col lg:flex-row items-center justify-center lg:space-x-28 space-x-0 space-y-8 lg:space-y-0'  > 
+        <div className='flex flex-col lg:flex-row items-center justify-center lg:space-x-28 space-x-0 space-y-8 lg:space-y-0 '  > 
             {membershipData.map((item) => (
                 <MembershipCard
                     key={item._id}
@@ -18,8 +18,7 @@ const Memberships = () => {
                     descriptionThree= {item.descriptionThree}              
                 />
             ))}
-
-    </div> 
+        </div> 
     </>
     )
 }
