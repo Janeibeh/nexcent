@@ -22,9 +22,7 @@ const HomePage = () => {
         <Calendar/>
         <Customers/>
         <CommunityUpdates/>
-        <Footer/>
-
-      
+        <Footer/> 
     </>
   )
 }
