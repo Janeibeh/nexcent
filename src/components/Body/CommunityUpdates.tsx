@@ -13,7 +13,7 @@ const CommunityUpdates = () => {
                 <p>trends and more. See who&apos;s joining the community, read about how our community</p>
                 <p>are increasing their membership icome and lot&apos;s more. </p>
             </div>
-            <p className='text-[0.85rem] text-grey lg:hidden'>The Nexcent blog is the best place to read about the latest membership insight trends and more. See who's joining the community, read about how our community are increasing their membership icome and lot's more </p>    
+            <p className='text-[0.85rem] text-grey lg:hidden'>The Nexcent blog is the best place to read about the latest membership insight trends and more. See who&apos;s joining the community, read about how our community are increasing their membership icome and lot&apos;s more </p>    
             <div className='py-4 flex flex-col lg:flex-row lg:space-x-6 space-y-8 lg:space-y-0'>
                 {communityUpdates.map((item) => (
                     <CommunityUpdatesCard
