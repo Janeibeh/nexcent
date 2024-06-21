@@ -13,7 +13,6 @@ interface MembershipCardProps {
     const  MembershipCard : React.FC<MembershipCardProps> = ({ image, title, titletwo, descriptionOne, descriptionTwo, descriptionThree  }) => {
     return (
     <>
-        <div >
             <div className='flex flex-col items-center justify-center container mx-auto py-8 w-[299px] px-4 border border-white rounded-lg  '>
                 <div className='w-48 flex flex-col items-center justify-center  '>
                     <Image src={image}  alt='vectoricon' width= {65} height= {56}   />
@@ -23,10 +22,7 @@ interface MembershipCardProps {
                 <p  className='font-normal text-sm text-grey  mt-2  '>{descriptionOne}</p>
                 <p  className='font-normal text-sm text-grey  '>{descriptionTwo}</p>
                 <p  className='font-normal text-sm text-grey '>{descriptionThree}</p>
-
             </div>
-        </div>
-
     </>
     )
 }
