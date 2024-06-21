@@ -15,7 +15,6 @@ const Client = () => {
     
     return (
     <>
-        <div>
             <div className='flex flex-col items-center justify-center container mx-auto py-8 lg:px-0 px-6 '>
                 <p className="font-semibold  text-gray lg:text-4xl text-3xl">Our Clients</p>
                 <p className='text-grey lg:text-base text-[0.85rem]	py-2 '>We have been working with some fortune 500+ clients</p>
@@ -47,7 +46,7 @@ const Client = () => {
 
 
 
-        </div> 
+
     </>
     )
 }

@@ -14,12 +14,12 @@ const PixelGrade = () => {
                     <p className='w-9/12 text-grey font-normal text-sm '> Witnessing the evolution of a dynamic team, learning from countless project challenges, and celebrating numerous successes. It involves growing alongside the company, embracing innovative design practices, and contributing to a creative, collaborative environment. This period is marked by professional development.</p>
                     <button className='bg-lemon text-white  h-11 w-36 rounded lg:ml-0 ml-24 mt-5 '>Learn more</button>
                 </div>
-                <div className='flex flex-col items-center justify-center container mx-auto px-6 lg:hidden font-semibold  text-gray  text-[1.4rem]'>
+                <div className='flex flex-col items-center justify-center container mx-auto px-6 lg:hidden font-semibold  text-gray  text-[1rem]'>
                     <p>The unseen of spending three years at Pixelgrade</p> 
                     <p className='font-normal text-sm text-grey mt-2 '>Witnessing the evolution of a dynamic team, learning from countless project challenges, and celebrating numerous successes. It involves growing alongside the company, embracing innovative design practices, and contributing to a creative, collaborative environment.</p>
                 </div>
             </div>
-            <button className='bg-lemon text-white  h-11 w-28 rounded lg:hidden ml-32 mt-5 text-sm'>Learn More</button>
+            <button className='bg-lemon text-white  h-11 w-24 rounded lg:hidden ml-16 mt-4 text-sm'>Learn More</button>
         </div>
 
     </>

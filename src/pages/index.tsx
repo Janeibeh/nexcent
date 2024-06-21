@@ -14,15 +14,15 @@ import Footer from '@/components/Footer/Footer'
 const HomePage = () => {
   return (
     <>
-        <Header/>
-        <HeroCarouselComponent />
-        <Client/>
+        <Header/>  
+        <HeroCarouselComponent /> 
+        <Client/>   
         <PixelGrade/>
         <AchievementsCounts/>
         <Calendar/>
         <Customers/>
-        <CommunityUpdates/>
-        <Footer/> 
+        <CommunityUpdates/> 
+        <Footer/>   
     </>
   )
 }
